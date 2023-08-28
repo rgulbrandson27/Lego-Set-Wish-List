@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dream Collections</title>
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet"
+      href="./style.css">
+  </head>
+
+  <body>    <!-- <body class="container container-fluid"> -->
+
+    <section class="flex-container">
+      <!-- <div class="row" id="jumbotron"> -->
+        <div class="jumbotron jumbotron-fluid">
+          <div class="row" id="title">
+            <h1 class="display-4">Ultimate Lego Wish List</h1>
+            <hr class="my-3">
+          </div>
+              <a class="btn btn-primary" id="create-category-button" href="#" role="button">Add New Category</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>    
+    <br>     
+              <!-- <img src="https://www.nicepng.com/png/detail/9-96414_lego-png-transparent-background-lego-man-png.png"> -->
+          
+              <!-- <form>
+                <div>
+                  <label for="category">Catgory</label>
+                  <input id="category-input" placeholder="Enter Category"/>
+                </div>
+                <div>
+                  <label for="color">Choose Category Color</label>
+                  <input type="color" id="color-chooser" placeholder="Choose Color"/>
+                </div>
+              </form>
+              <button type="submit" id="submit-new-category-button">Submit</button>
+        -->
+     
+      <!-- </div> -->
+    
+
+
+<!--SAMPLE 1 (ORIGINALLY AND STILL TAGGED AS SAMPLE 2)-->      
+<section class="container-fluid">
+  <div class="row">
+
+    <div class="col-md-2 col-1">
+        </div>
+
+        <div class="col-md-8 col-10">
+            <div class="accordion" id="sample-accordion-2">
+      
+      <!-- ACCORDION HEADER ITEM - This is the header accordion item that just has the category name with no drop-down -->
+                        
+                        <div class="accordion-item" id="category-accordion-item-2">
+        
+                        <h2 class="accordion-header" id="category-accordion-header-2">
+                          <div class="col-sm-2">
+                          </div>
+                        
+                                  <div class="col-md-5 col-6 text-center">
+                                    <flex-container>
+                                    <p id="category-name-2">ARCHITECTURE</p> 
+                                  </flex-container>
+                                  </div> 
+                                  <div class="col-1">
+                                  </div>
+                                  <div class="col-lg-3 col-6">
+                                    <button class="btn btn-outline-dark" type="submit" id="add-ls-button-2">Add New Lego Set</button>
+                                  </div> 
+                                  <div class="col-1">
+                                  </div>
+                            
+                        </h2>
+                      </div>
+                      
+      <!--LEGO SET (LS) ACCORDION ITEM --> 
+                    
+          <div class="accordion-item" id="ls-accordion-item-2">
+                  <h2 class="accordion-header" id="ls-accordion-header-2">
+                            <button class="accordion-button" id="ls-collapse-button-2" type="button" data-bs-toggle="collapse" data-bs-target="#ls-drop-section-2" aria-expanded="true" aria-controls="#ls-drop-section-2">
+                                        <img class="cover-image" id="cover-image-1" src="https://images.brickset.com/sets/large/10214-1.jpg?201009150107" alt="Hedwig Lego Set">
+                                        <flex-container
+                                          id="ls-name-2">Tower Bridge
+                                        </flex-container> 
+                            </button>
+                           
+                  </h2>
+            </div> 
+                    </div>
+                          <div class="accordion-collapse collapse p-5" id="ls-drop-section-2">
+                              <div class="accordion-body" id="ls-accordion-body-2">
+                                <div class="row">
+                                  <div class="col-12 col-md-6">
+                                    <ul style="list-style: none">
+                                      <li><p><strong>Current Price:   </strong>$299.99</p></li>
+                                      <li><p><strong>Production Year:   </strong>2021</p></li>
+                                    </ul>
+                                  </div>
+                                
+                                  <div class="col-12 col-md-6">
+                                    <ul style="list-style: none">
+                                    <li><p><strong>Availability:   </strong>LEGO Exclusive</p></li>
+                                    <li><p><strong>Number of Pieces:   </strong>3010</p></li>
+                                </ul>
+                                </div>
+                                <div class="row m-t-2 m-b-2 p-1">
+
+                                  <p class="text-center"><strong>Lego.com:   </strong> <a href="https://www.lego.com/en-us/product/hogwarts-icons-collectors-edition-76391">Hogwarts Icons Collectors' Edition</a></p>
+                                </div>
+                          
+                                <div class="row g-3 p-1" id="additional-images-row-2">
+
+                                  <div class="col-md-3 col-6">
+                                    <img class="additional-image" id="image-1-2" src="https://images.brickset.com/sets/large/76391-1.jpg?202010160808" alt="Hedwig Lego Set">
+                                  </div>
+                                  <div class="col-md-3 col-6">
+                                    <img class="additional-image" id="image-2-2" src="https://images.brickset.com/sets/AdditionalImages/76391-1/76391_alt1.jpg" alt="Box Cover">
+                                  </div>
+                                  <div class="col-md-3 col-6">
+                                    <img class="additional-image" id="image-3-2" src="https://images.brickset.com/sets/AdditionalImages/76391-1/76391_alt11.jpg" alt="Person with owl">
+                                  </div>
+                                  <div class="col-md-3 col-6">
+                                    <img class="additional-image" id="image-4-2" src="https://images.brickset.com/sets/AdditionalImages/76391-1/76391_alt11.jpg" alt="Person with owl">
+                                  </div>
+
+                                </div>
+
+                              </div>
+                          </div>
+                      </div> 
+
+        <div class="col-md-2 col-sm-1">
+      </div>
+  </div>
+</section>    
+<row class="m-3" id="empty-row"></row>  
+   
+
+<!--SAMPLE 2 (ORIGINALLY AND STILL TAGGED AS SAMPLE 1)--> 
+<section class="container-fluid">
+  <div class="row">
+
+    <div class="col-md-2 col-1">
+        </div>
+
+        <div class="col-md-8 col-10">
+            <div class="accordion" id="sample-accordion-1">
+
+      <!-- ACCORDION HEADER ITEM - This is the header accordion item that just has the category name with no drop-down -->
+                        
+                    <div class="accordion-item" id="category-accordion-item-1">
+                        <h2 class="accordion-header" id="category-accordion-header-1">
+                          <div class="col-sm-2">
+                          </div>
+                          <div class="col-md-5 col-6 text-center">
+                            <flex-container>
+                              <p id="category-name-1">BOTANICAL</p> 
+                              </flex-container>
+                          </div>
+                          <div class="col-1">
+                          </div>
+                       
+                            <div class="col-lg-3 col-6">
+                              <button class="btn btn-outline-dark" type="submit" id="add-ls-button-1">Add New Lego Set</button>
+                            </div> 
+                            <div class="col-1">
+                            </div>
+                        </h2>
+                      </div>
+                      </h2>
+                    </div>
+
+                    
+      <!--LEGO SET (LS) ACCORDION ITEM --> 
+                    
+          <div class="accordion-item" id="ls-accordion-item-1">
+                  <h2 class="accordion-header" id="ls-accordion-header-1">
+                            <button class="accordion-button" id="ls-collapse-button-1" type="button" data-bs-toggle="collapse" data-bs-target="#ls-drop-section-1" aria-expanded="true" aria-controls="#ls-drop-section-1">
+                                        <img class="cover-image" id="cover-image-2" src="https://images.brickset.com/sets/large/10280-1.jpg?202011200741" alt="Hedwig Lego Set">
+                                 
+                                        <flex-container
+                                          id="ls-name-1">Flower Bouquet
+                                        </flex-container> 
+                            </button>
+                           
+                  </h2>
+            </div>  
+                    
+                    </div>
+                          <div class="accordion-collapse collapse p-5" id="ls-drop-section-1">
+                              <div class="accordion-body" id="ls-accordion-body-1">
+                                <div class="row">
+                                  <div class="col-12 col-md-6">
+                                    <ul style="list-style: none">
+                                      <li><p><strong>Current Price:   </strong>$299.99</p></li>
+                                      <li><p><strong>Production Year:   </strong>2021</p></li>
+                                    </ul>
+                                  </div>
+                                
+                                  <div class="col-12 col-md-6">
+                                    <ul style="list-style: none">
+                                    <li><p><strong>Availability:   </strong>LEGO Exclusive</p></li>
+                                    <li><p><strong>Number of Pieces:   </strong>3010</p></li>
+                                    </ul>
+                                  </div>
+                                  
+                                </div>
+                                <div class="row m-t-2 m-b-2 p-1">
+
+                                  <p class="text-center"><strong>Lego.com:   </strong> <a href="https://www.lego.com/en-us/product/hogwarts-icons-collectors-edition-76391">Hogwarts Icons Collectors' Edition</a></p>
+                                </div>
+                          
+                                <div class="row g-3 p-1" id="additional-images-row-1">
+
+                                  <div class="col-md-3 col-6">
+                                    <img class="additional-image" id="image-1" src="https://images.brickset.com/sets/large/76391-1.jpg?202010160808" alt="Hedwig Lego Set">
+                                  </div>
+                                  <div class="col-md-3 col-6">
+                                    <img class="additional-image" id="image-2" src="https://images.brickset.com/sets/AdditionalImages/76391-1/76391_alt1.jpg" alt="Box Cover">
+                                  </div>
+                                  <div class="col-md-3 col-6">
+                                    <img class="additional-image" id="image-3" src="https://images.brickset.com/sets/AdditionalImages/76391-1/76391_alt11.jpg" alt="Person with owl">
+                                  </div>
+                                  <div class="col-md-3 col-6">
+                                    <img class="additional-image" id="image-4" src="https://images.brickset.com/sets/AdditionalImages/76391-1/76391_alt11.jpg" alt="Person with owl">
+                                  </div>
+
+                                </div>
+
+                              </div>
+                          </div>
+                      </div> 
+
+        <div class="col-md-2 col-sm-1">
+      </div>
+  </div>
+  
+</section>  
+<row class="m-3" id="empty-row"></row>  
+
+
+<!--SAMPLE 3--> 
+ <section class="container-fluid">
+  <div class="row">
+
+    <div class="col-md-2 col-1">
+        </div>
+
+        <div class="col-md-8 col-10">
+            <div class="accordion" id="sample-accordion-3">
+      
+      <!-- ACCORDION HEADER ITEM - This is the header accordion item that just has the category name with no drop-down -->
+                        
+                        <div class="accordion-item" id="category-accordion-item-3">
+        
+                        <h2 class="accordion-header" id="category-accordion-header-3">
+                          <div class="col-sm-2">
+                          </div>
+                        
+                                  <div class="col-md-5 col-6 text-center">
+                                    <flex-container>
+                                    <p id="category-name-3">DISNEY</p> 
+                                  </flex-container>
+                                  </div> 
+                                  <div class="col-1">
+                                  </div>
+                                  <div class="col-lg-3 col-6">
+                                    <button class="btn btn-outline-dark" type="submit" id="add-ls-button-3">Add New Lego Set</button>
+                                  </div> 
+                                  <div class="col-1">
+                                  </div>
+                            
+                        </h2>
+                      </div>
+
+      <!--LEGO SET (LS) ACCORDION ITEM --> 
+                    
+          <div class="accordion-item" id="ls-accordion-item-3">
+                  <h2 class="accordion-header" id="ls-accordion-header-3">
+                            <button class="accordion-button" id="ls-collapse-button-3" type="button" data-bs-toggle="collapse" data-bs-target="#ls-drop-section-3" aria-expanded="true" aria-controls="#ls-drop-section-3">
+                                        <img class="cover-image" src="https://images.brickset.com/sets/large/43222-1.jpg?202304230420" alt="Hedwig Lego Set">
+                                 
+                                        <flex-container
+                                          id="ls-name-3">Disney Castle
+                                        </flex-container> 
+                            </button>
+                           
+                  </h2>
+            </div>  
+                    
+                    </div>
+                          <div class="accordion-collapse collapse p-5" id="ls-drop-section-3">
+                              <div class="accordion-body" id="ls-accordion-body-3">
+                                <div class="row">
+                                  <div class="col-12 col-md-6">
+                                    <ul style="list-style: none">
+                                      <li><p><strong>Current Price:   </strong>$299.99</p></li>
+                                      <li><p><strong>Production Year:   </strong>2021</p></li>
+                                    </ul>
+                                  </div>
+                                
+                                  <div class="col-12 col-md-6">
+                                    <ul style="list-style: none">
+                                    <li><p><strong>Availability:   </strong>LEGO Exclusive</p></li>
+                                    <li><p><strong>Number of Pieces:   </strong>3010</p></li>
+                                    </ul>
+                                  </div>
+                                  
+                                </div>
+                                <div class="row m-t-2 m-b-2 p-1">
+
+                                  <p class="text-center"><strong>Lego.com:   </strong> <a href="https://www.lego.com/en-us/product/hogwarts-icons-collectors-edition-76391">Hogwarts Icons Collectors' Edition</a></p>
+                                </div>
+                          
+                                <div class="row g-3 p-1" id="additional-images-row-3">
+
+                                  <div class="col-md-3 col-6">
+                                    <img class="additional-image" id="image-1-2" src="https://images.brickset.com/sets/large/76391-1.jpg?202010160808" alt="Hedwig Lego Set">
+                                  </div>
+                                  <div class="col-md-3 col-6">
+                                    <img class="additional-image" id="image-2-2" src="https://images.brickset.com/sets/AdditionalImages/76391-1/76391_alt1.jpg" alt="Box Cover">
+                                  </div>
+                                  <div class="col-md-3 col-6">
+                                    <img class="additional-image" id="image-3-2" src="https://images.brickset.com/sets/AdditionalImages/76391-1/76391_alt11.jpg" alt="Person with owl">
+                                  </div>
+                                  <div class="col-md-3 col-6">
+                                    <img class="additional-image" id="image-4-2" src="https://images.brickset.com/sets/AdditionalImages/76391-1/76391_alt11.jpg" alt="Person with owl">
+                                  </div>
+
+                                </div>
+
+                              </div>
+                          </div>
+                      </div> 
+
+        <div class="col-md-2 col-sm-1">
+      </div>
+  </div>
+</section>    
+<row class="m-3" id="empty-row"></row>  
+             
+  
+<!--SAMPLE 4--> 
+<section class="container-fluid">
+  <div class="row">
+
+    <div class="col-md-2 col-1">
+        </div>
+
+        <div class="col-md-8 col-10">
+            <div class="accordion" id="sample-accordion-4">
+      
+      <!-- ACCORDION HEADER ITEM - This is the header accordion item that just has the category name with no drop-down -->
+                        
+                    <div class="accordion-item" id="category-accordion-item-4">
+                        <h2 class="accordion-header" id="category-accordion-header-4">
+                          <div class="col category-column">
+                            <flex-container>
+                              <p id="category-name-4">HARRY POTTER</p> 
+                              </flex-container>
+                          </div>
+                          <div class="col button-column">
+                            <flex-container>
+                              <button class="btn btn-outline-dark" type="submit" id="add-ls-button-4">Add New Lego Set</button>
+                            </flex-container>
+                          </div>
+
+                        </h2>
+
+                 
+                    </div>
+
+      <!--LEGO SET (LS) ACCORDION ITEM --> 
+                    
+          <div class="accordion-item" id="ls-accordion-item-4">
+                  <h2 class="accordion-header" id="ls-accordion-header-4">
+                            <button class="accordion-button" id="ls-collapse-button-4" type="button" data-bs-toggle="collapse" data-bs-target="#ls-drop-section-4" aria-expanded="true" aria-controls="#ls-drop-section-4">
+                                        <img class="cover-image" src="https://images.brickset.com/sets/large/76391-1.jpg?202010160808" alt="Hedwig Lego Set">
+                                 
+                                        <flex-container
+                                          id="ls-name-4">Hogwarts Icons: Collectors' Edition
+                                        </flex-container> 
+                            </button>     
+                  </h2>
+                          <div class="accordion-collapse collapse p-5" id="ls-drop-section-4">
+                              <div class="accordion-body" id="ls-accordion-body-4">
+                                <div class="row">
+                                  <div class="col-12 col-md-6">
+                                    <ul style="list-style: none">
+                                      <li><p><strong>Current Price:   </strong>$299.99</p></li>
+                                      <li><p><strong>Production Year:   </strong>2021</p></li>
+                                    </ul>
+                                  </div>
+                                
+                                  <div class="col-12 col-md-6">
+                                    <ul style="list-style: none">
+                                    <li><p><strong>Availability:   </strong>LEGO Exclusive</p></li>
+                                    <li><p><strong>Number of Pieces:   </strong>3010</p></li>
+                                    </ul>
+                                </div>
+                                  
+                                </div>
+                                <div class="row m-t-2 m-b-2 p-1">
+
+                                  <p class="text-center"><strong>Lego.com:   </strong> <a href="https://www.lego.com/en-us/product/hogwarts-icons-collectors-edition-76391">Hogwarts Icons Collectors' Edition</a></p>
+                                </div>
+                          
+                                <div class="row g-3 p-1" id="additional-images-row-4">
+
+                                  <div class="col-md-3 col-6">
+                                    <img class="additional-image" id="image-1" src="https://images.brickset.com/sets/large/76391-1.jpg?202010160808" alt="Hedwig Lego Set">
+                                  </div>
+                                  <div class="col-md-3 col-6">
+                                    <img class="additional-image" id="image-2" src="https://images.brickset.com/sets/AdditionalImages/76391-1/76391_alt1.jpg" alt="Box Cover">
+                                  </div>
+                                  <div class="col-md-3 col-6">
+                                    <img class="additional-image" id="image-3" src="https://images.brickset.com/sets/AdditionalImages/76391-1/76391_alt11.jpg" alt="Person with owl">
+                                  </div>
+                                  <div class="col-md-3 col-6">
+                                    <img class="additional-image" id="image-4" src="https://images.brickset.com/sets/AdditionalImages/76391-1/76391_alt14.jpg" alt="Person with owl">
+                                  </div>
+
+                                </div>
+
+                              </div>
+                          </div>
+                      </div> 
+                      <div class="accordion-item" id="ls-accordion-item-4">
+                        <h2 class="accordion-header" id="ls-accordion-header-4">
+                                  <button class="accordion-button" id="ls-collapse-button-4" type="button" data-bs-toggle="collapse" data-bs-target="#ls-drop-section-4" aria-expanded="true" aria-controls="#ls-drop-section-4">
+                                              <img class="cover-image" src="https://images.brickset.com/sets/AdditionalImages/75978-1/75978_alt3.jpg" alt="Hedwig Lego Set">
+                                       
+                                              <flex-container
+                                                id="ls-name-4">Diagon Alley
+                                              </flex-container> 
+                                  </button>     
+                        </h2>
+                                <div class="accordion-collapse collapse p-5" id="ls-drop-section-4">
+                                    <div class="accordion-body" id="ls-accordion-body-4">
+                                      <div class="row">
+                                        <div class="col-12 col-md-6">
+                                          <ul style="list-style: none">
+                                            <li><p><strong>Current Price:   </strong>$299.99</p></li>
+                                            <li><p><strong>Production Year:   </strong>2021</p></li>
+                                          </ul>
+                                        </div>
+                                      
+                                        <div class="col-12 col-md-6">
+                                          <ul style="list-style: none">
+                                          <li><p><strong>Availability:   </strong>LEGO Exclusive</p></li>
+                                          <li><p><strong>Number of Pieces:   </strong>3010</p></li>
+                                          </ul>
+                                      </div>
+                                    </div>
+                                    <div class="row m-t-2 m-b-2 p-1">
+    
+                                      <p class="text-center"><strong>Lego.com:   </strong> <a href="https://www.lego.com/en-us/product/hogwarts-icons-collectors-edition-76391">Hogwarts Icons Collectors' Edition</a></p>
+                                    </div>
+                              
+                                    <div class="row g-3 p-1" id="additional-images-row-4">
+    
+                                      <div class="col-md-3 col-6">
+                                        <img class="additional-image" id="image-1" src="https://images.brickset.com/sets/large/76391-1.jpg?202010160808" alt="Hedwig Lego Set">
+                                      </div>
+                                      <div class="col-md-3 col-6">
+                                        <img class="additional-image" id="image-2" src="https://images.brickset.com/sets/AdditionalImages/76391-1/76391_alt1.jpg" alt="Box Cover">
+                                      </div>
+                                      <div class="col-md-3 col-6">
+                                        <img class="additional-image" id="image-3" src="https://images.brickset.com/sets/AdditionalImages/76391-1/76391_alt11.jpg" alt="Person with owl">
+                                      </div>
+                                      <div class="col-md-3 col-6">
+                                        <img class="additional-image" id="image-4" src="https://images.brickset.com/sets/AdditionalImages/76391-1/76391_alt14.jpg" alt="Person with owl">
+                                      </div>
+    
+                                    </div>
+    
+                                  </div>
+                              </div>
+                          </div> 
+
+
+
+                          <div class="accordion-item" id="ls-accordion-item-4">
+                            <h2 class="accordion-header" id="ls-accordion-header-4">
+                                      <button class="accordion-button" id="ls-collapse-button-4" type="button" data-bs-toggle="collapse" data-bs-target="#ls-drop-section-4" aria-expanded="true" aria-controls="#ls-drop-section-4">
+                                                  <img class="cover-image" src="https://images.brickset.com/sets/large/71043-1.jpg?201807250319" alt="Hedwig Lego Set">
+                                           
+                                                  <flex-container
+                                                    id="ls-name-4">Hogwarts Castle
+                                                  </flex-container> 
+                                      </button>     
+                            </h2>
+                                    <div class="accordion-collapse collapse p-5" id="ls-drop-section-4">
+                                        <div class="accordion-body" id="ls-accordion-body-4">
+                                          <div class="row">
+                                            <div class="col-12 col-md-6">
+                                              <ul style="list-style: none">
+                                                <li><p><strong>Current Price:   </strong>$299.99</p></li>
+                                                <li><p><strong>Production Year:   </strong>2021</p></li>
+                                              </ul>
+                                            </div>
+                                          
+                                            <div class="col-12 col-md-6">
+                                              <ul style="list-style: none">
+                                              <li><p><strong>Availability:   </strong>LEGO Exclusive</p></li>
+                                              <li><p><strong>Number of Pieces:   </strong>3010</p></li>
+                                              </ul>
+                                          </div>
+
+
+
+
+
+                        </div>
+                        <div class="row m-t-2 m-b-2 p-1">
+
+                          <p class="text-center"><strong>Lego.com:   </strong> <a href="https://www.lego.com/en-us/product/hogwarts-icons-collectors-edition-76391">Hogwarts Icons Collectors' Edition</a></p>
+                        </div>
+                  
+                        <div class="row g-3 p-1" id="additional-images-row-4">
+
+                          <div class="col-md-3 col-6">
+                            <img class="additional-image" id="image-1" src="https://images.brickset.com/sets/large/76391-1.jpg?202010160808" alt="Hedwig Lego Set">
+                          </div>
+                          <div class="col-md-3 col-6">
+                            <img class="additional-image" id="image-2" src="https://images.brickset.com/sets/AdditionalImages/76391-1/76391_alt1.jpg" alt="Box Cover">
+                          </div>
+                          <div class="col-md-3 col-6">
+                            <img class="additional-image" id="image-3" src="https://images.brickset.com/sets/AdditionalImages/76391-1/76391_alt11.jpg" alt="Person with owl">
+                          </div>
+                          <div class="col-md-3 col-6">
+                            <img class="additional-image" id="image-4" src="https://images.brickset.com/sets/AdditionalImages/76391-1/76391_alt14.jpg" alt="Person with owl">
+                          </div>
+
+                        </div>
+
+                      </div>
+                  </div>
+              </div> 
+
+
+
+                    </div>
+
+                </div>  
+        <div class="col-md-2 col-sm-1">
+      </div>
+  
+  
+</section>  
+<row class="m-3" id="empty-row"></row>  
+
+
+<!--SAMPLE 5--> 
+<section class="container-fluid">
+  <div class="row">
+
+    <div class="col-md-2 col-1">
+        </div>
+
+        <div class="col-md-8 col-10">
+            <div class="accordion" id="sample-accordion-5">
+      
+      <!-- ACCORDION HEADER ITEM - This is the header accordion item that just has the category name with no drop-down -->
+                        
+                    <div class="accordion-item" id="category-accordion-item-5">
+                        <h2 class="accordion-header" id="category-accordion-header-5">
+                          <div class="col category-column">
+                            <flex-container>
+                              <p id="category-name-5">JUST FOR FUN</p> 
+                              </flex-container>
+                          </div>
+                          <div class="col button-column">
+                            <flex-container>
+                              <button class="btn btn-outline-dark" type="submit" id="add-ls-button-5">Add New Lego Set</button>
+                            </flex-container>
+                          </div>
+
+
+
+
+
+                        </h2>
+
+                 
+                    </div>
+
+      <!--LEGO SET (LS) ACCORDION ITEM --> 
+                    
+          <div class="accordion-item" id="ls-accordion-item-5">
+                  <h2 class="accordion-header" id="ls-accordion-header-5">
+                            <button class="accordion-button" id="ls-collapse-button-5" type="button" data-bs-toggle="collapse" data-bs-target="#ls-drop-section-5" aria-expanded="true" aria-controls="#ls-drop-section-5">
+                                        <img class="cover-image" src="https://images.brickset.com/sets/large/10196-1.jpg?201012270726" alt="Hedwig Lego Set">
+                                 
+                                        <flex-container
+                                          id="ls-name-5">Grand Carousel
+                                        </flex-container> 
+                            </button>
+                           
+                  </h2>
+            </div>  
+                    
+                    </div>
+                          <div class="accordion-collapse collapse p-5" id="ls-drop-section-5">
+                              <div class="accordion-body" id="ls-accordion-body-5">
+                                <div class="row">
+                                  <div class="col-12 col-md-6">
+                                    <ul style="list-style: none">
+                                      <li><p><strong>Current Price:   </strong>$299.99</p></li>
+                                      <li><p><strong>Production Year:   </strong>2021</p></li>
+                                    </ul>
+                                  </div>
+                                
+                                  <div class="col-12 col-md-6">
+                                    <ul style="list-style: none">
+                                    <li><p><strong>Availability:   </strong>LEGO Exclusive</p></li>
+                                    <li><p><strong>Number of Pieces:   </strong>3010</p></li>
+                                    </ul>
+                                  </div>
+                                  
+                                </div>
+                                <div class="row m-t-2 m-b-2 p-1">
+
+                                  <p class="text-center"><strong>Lego.com:   </strong> <a href="https://www.lego.com/en-us/product/hogwarts-icons-collectors-edition-76391">Hogwarts Icons Collectors' Edition</a></p>
+                                </div>
+                          
+                                <div class="row g-3 p-1" id="additional-images-row-5">
+
+                                  <div class="col-md-3 col-6">
+                                    <img class="additional-image" id="image-1" src="https://images.brickset.com/sets/large/76391-1.jpg?202010160808" alt="Hedwig Lego Set">
+                                  </div>
+                                  <div class="col-md-3 col-6">
+                                    <img class="additional-image" id="image-2" src="https://images.brickset.com/sets/AdditionalImages/76391-1/76391_alt1.jpg" alt="Box Cover">
+                                  </div>
+                                  <div class="col-md-3 col-6">
+                                    <img class="additional-image" id="image-3" src="https://images.brickset.com/sets/AdditionalImages/76391-1/76391_alt11.jpg" alt="Person with owl">
+                                  </div>
+                                  <div class="col-md-3 col-6">
+                                    <img class="additional-image" id="image-4" src="https://images.brickset.com/sets/AdditionalImages/76391-1/76391_alt11.jpg" alt="Person with owl">
+                                  </div>
+
+                                </div>
+
+                              </div>
+                          </div>
+                      </div> 
+
+        <div class="col-md-2 col-sm-1">
+      </div>
+  </div>
+  
+</section>  
+<row class="m-3" id="empty-row"></row>  
+
+
+
+      <!--LEGO SET (LS) ACCORDION ITEM --> 
+
+             <!-- <div class="accordion-item" id="ls-accordion-item">
+               <h2 class="accordion-header" id="ls-accordion-header">
+            
+                 <button class="accordion-button collapsed" id="ls-collapse-button" type="button" data-bs-toggle="collapse" data-bs-target="#ls-accordion-button-show" aria-expanded="false" aria-controls="#ls-accordion-button-show">
+                  <div class="row">
+
+                    <div class="col">
+                      <img class="cover-image" src="https://images.brickset.com/sets/large/76391-1.jpg?202010160808" alt="Hedwig Lego Set">
+                    <div>
+                    <div class="col" id="word-col">
+                      <p id="name">Lego Set Name</p>
+                      <p id="price">$Lego Set Price</p>
+                      <p id="pieces">Lego Set Pieces</p>
+                    </div>
+                  </div>
+                </button>
+              </div>
+            </div>
+               </h2>
+                 <div class="accordion-collapse collapse" id="ls-accordion-button-show">
+                   <div class="accordion-body" id="ls-accordion-body">
+                     <strong>Additional information:</strong> Additional photos, year it came out, can purchase currently, etc.  
+                     <br>
+                     <br>
+                     <br>
+                     <img class="additional-image" src="https://images.brickset.com/sets/large/76391-1.jpg?202010160808" alt="Hedwig Lego Set">
+                     <img class="additional-image" src="https://images.brickset.com/sets/AdditionalImages/76391-1/76391_alt1.jpg" alt="Box Cover">
+                     <img class="additional-image" src="https://images.brickset.com/sets/AdditionalImages/76391-1/76391_alt11.jpg" alt="Person with owl">
+                   </div>
+                 </div>
+               </div> -->
+                  
+          
+          <!--ACCORDION ITEM 3-->        
+
+          <!-- <div class="accordion-item" id="ls-accordion-item-3">
+            <h2 class="accordion-header" id="ls-accordion-header-3">
+              <button class="accordion-button collapsed" id="ls-collapse-button-3" type="button" data-bs-toggle="collapse" data-bs-target="#ls-accordion-button-show-3" aria-expanded="false" aria-controls="#ls-accordion-button-show-3">
+                  Accordion Item #3
+                </button>
+            </h2>
+              <div class="accordion-collapse collapse" id="ls-accordion-button-show-3">
+                <div class="accordion-body" id="ls-accordion-body-3">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+     
+           </div>
+         </section>
+
+      </div>
+ 
+    </section>
+  
+
+
+
+<SAMPLE ACCORDION ITEM WITH CONTENT ON HEADER INSTEAD OF BUTTON-->
+
+    <!-- <div class="accordion-item" id="ls-accordion-item-2">
+      <h2 class="accordion-header" id="ls-accordion-header-2">
+        <button class="accordion-button collapsed" id="ls-collapse-button-2" type="button" data-bs-toggle="collapse" data-bs-target="#ls-accordion-button-2" aria-expanded="false" aria-controls="#ls-accordion-button-2">
+          </button>
+        <div class="row">
+          <div class="col-5">
+            <img class="cover-image" src="https://images.brickset.com/sets/large/76391-1.jpg?202010160808" alt="Hedwig Lego Set">
+          </div>
+          <div class="col-7">
+            <p id="name">Lego Set Name</p>
+            <p id="price">$Lego Set Price</p>
+            <p id="pieces">Lego Set Pieces</p>
+          </div>
+        </div> 
+      
+      </h2>
+        <div id="ls-accordion-button-2" class="accordion-collapse collapse">
+          <div class="accordion-body" id="ls-accordion-body">
+            <strong>Additional information:</strong> Additional photos, year it came out, can purchase currently, etc.  
+            <br>
+            <br>
+            <br>
+            <img class="additional-image" src="https://images.brickset.com/sets/large/76391-1.jpg?202010160808" alt="Hedwig Lego Set">
+            <img class="additional-image" src="https://images.brickset.com/sets/AdditionalImages/76391-1/76391_alt1.jpg" alt="Box Cover">
+            <img class="additional-image" src="https://images.brickset.com/sets/AdditionalImages/76391-1/76391_alt11.jpg" alt="Person with owl">
+
+          </div>
+        </div> -->
+
+
+
+
+
+          <!-- <div class="col-sm-4">
+           <div class="card mb-3" style="max-width: 360px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="blue-lego-square.svg" class="img-fluid rounded-start align-content:center">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h3 class="card-title">Set Name</h3>
+                  <h5 class="card-sub-title">Theme:</h5>
+                  <h5 class="card-sub-title">Price:</h5>
+                  <h6 class="card-sub-title">Number of Pieces:</h6>
+        
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  <div class="btn btn-primary">Additional Photos</div>
+                </div>
+              </div>
+            </div> 
+          <div class="col-sm-4">col-sm-4</div> -->
+       
+  
+      <script src="node_modules/jquery/dist/jquery.min.js"></script>
+      <script src="app.js"></script>
+      <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+  </body>
+ </html>

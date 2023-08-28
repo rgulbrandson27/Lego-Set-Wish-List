@@ -1,0 +1,252 @@
+[
+    {
+     "SetName": "SetName 1",
+     "Category": "Category 1",
+     "Price": 11,
+     "NumberOfPieces": 67,
+     "Current": false,
+     "Notes": "Notes 1",
+     "Image": "https://loremflickr.com/640/480",
+     "SetID": "1"
+    },
+    {
+     "SetName": "SetName 2",
+     "Category": "Category 2",
+     "Price": 1,
+     "NumberOfPieces": 83,
+     "Current": false,
+     "Notes": "Notes 2",
+     "Image": "https://loremflickr.com/640/480",
+     "SetID": "2"
+    },
+    {
+     "SetName": "SetName 3",
+     "Category": "Category 3",
+     "Price": 90,
+     "NumberOfPieces": 65,
+     "Current": false,
+     "Notes": "Notes 3",
+     "Image": "https://loremflickr.com/640/480",
+     "SetID": "3"
+    },
+    {
+     "SetName": "SetName 4",
+     "Category": "Category 4",
+     "Price": 26,
+     "NumberOfPieces": 61,
+     "Current": false,
+     "Notes": "Notes 4",
+     "Image": "https://loremflickr.com/640/480",
+     "SetID": "4"
+    },
+    {
+     "SetName": "SetName 5",
+     "Category": "Category 5",
+     "Price": 28,
+     "NumberOfPieces": 52,
+     "Current": false,
+     "Notes": "Notes 5",
+     "Image": "https://loremflickr.com/640/480",
+     "SetID": "5"
+    },
+    {
+     "SetName": "SetName 6",
+     "Category": "Category 6",
+     "Price": 90,
+     "NumberOfPieces": 49,
+     "Current": false,
+     "Notes": "Notes 6",
+     "Image": "https://loremflickr.com/640/480",
+     "SetID": "6"
+    },
+    {
+     "SetName": "SetName 7",
+     "Category": "Category 7",
+     "Price": 18,
+     "NumberOfPieces": 34,
+     "Current": false,
+     "Notes": "Notes 7",
+     "Image": "https://loremflickr.com/640/480",
+     "SetID": "7"
+    },
+    {
+     "SetName": "SetName 8",
+     "Category": "Category 8",
+     "Price": 46,
+     "NumberOfPieces": 11,
+     "Current": false,
+     "Notes": "Notes 8",
+     "Image": "https://loremflickr.com/640/480",
+     "SetID": "8"
+    },
+    {
+     "SetName": "SetName 9",
+     "Category": "Category 9",
+     "Price": 86,
+     "NumberOfPieces": 73,
+     "Current": false,
+     "Notes": "Notes 9",
+     "Image": "https://loremflickr.com/640/480",
+     "SetID": "9"
+    },
+    {
+     "SetName": "SetName 10",
+     "Category": "Category 10",
+     "Price": 49,
+     "NumberOfPieces": 20,
+     "Current": false,
+     "Notes": "Notes 10",
+     "Image": "https://loremflickr.com/640/480",
+     "SetID": "10"
+    },
+    {
+     "SetName": "SetName 11",
+     "Category": "Category 11",
+     "Price": 48,
+     "NumberOfPieces": 52,
+     "Current": false,
+     "Notes": "Notes 11",
+     "Image": "https://loremflickr.com/640/480",
+     "SetID": "11"
+    },
+    {
+     "SetName": "SetName 12",
+     "Category": "Category 12",
+     "Price": 77,
+     "NumberOfPieces": 20,
+     "Current": false,
+     "Notes": "Notes 12",
+     "Image": "https://loremflickr.com/640/480",
+     "SetID": "12"
+    },
+    {
+     "SetName": "SetName 13",
+     "Category": "Category 13",
+     "Price": 100,
+     "NumberOfPieces": 11,
+     "Current": false,
+     "Notes": "Notes 13",
+     "Image": "https://loremflickr.com/640/480",
+     "SetID": "13"
+    },
+    {
+     "SetName": "SetName 14",
+     "Category": "Category 14",
+     "Price": 14,
+     "NumberOfPieces": 23,
+     "Current": false,
+     "Notes": "Notes 14",
+     "Image": "https://loremflickr.com/640/480",
+     "SetID": "14"
+    },
+    {
+     "SetName": "SetName 15",
+     "Category": "Category 15",
+     "Price": 56,
+     "NumberOfPieces": 15,
+     "Current": false,
+     "Notes": "Notes 15",
+     "Image": "https://loremflickr.com/640/480",
+     "SetID": "15"
+    },
+    {
+     "SetName": "SetName 16",
+     "Category": "Category 16",
+     "Price": 33,
+     "NumberOfPieces": 80,
+     "Current": false,
+     "Notes": "Notes 16",
+     "Image": "https://loremflickr.com/640/480",
+     "SetID": "16"
+    },
+    {
+     "SetName": "SetName 17",
+     "Category": "Category 17",
+     "Price": 35,
+     "NumberOfPieces": 19,
+     "Current": false,
+     "Notes": "Notes 17",
+     "Image": "https://loremflickr.com/640/480",
+     "SetID": "17"
+    },
+    {
+     "SetName": "SetName 18",
+     "Category": "Category 18",
+     "Price": 94,
+     "NumberOfPieces": 81,
+     "Current": false,
+     "Notes": "Notes 18",
+     "Image": "https://loremflickr.com/640/480",
+     "SetID": "18"
+    },
+    {
+     "SetName": "SetName 19",
+     "Category": "Category 19",
+     "Price": 12,
+     "NumberOfPieces": 19,
+     "Current": false,
+     "Notes": "Notes 19",
+     "Image": "https://loremflickr.com/640/480",
+     "SetID": "19"
+    },
+    {
+     "SetName": "SetName 20",
+     "Category": "Category 20",
+     "Price": 84,
+     "NumberOfPieces": 93,
+     "Current": false,
+     "Notes": "Notes 20",
+     "Image": "https://loremflickr.com/640/480",
+     "SetID": "20"
+    },
+    {
+     "SetName": "SetName 21",
+     "Category": "Category 21",
+     "Price": 62,
+     "NumberOfPieces": 68,
+     "Current": false,
+     "Notes": "Notes 21",
+     "Image": "https://loremflickr.com/640/480",
+     "SetID": "21"
+    },
+    {
+     "SetName": "SetName 22",
+     "Category": "Category 22",
+     "Price": 61,
+     "NumberOfPieces": 38,
+     "Current": false,
+     "Notes": "Notes 22",
+     "Image": "https://loremflickr.com/640/480",
+     "SetID": "22"
+    },
+    {
+     "SetName": "SetName 23",
+     "Category": "Category 23",
+     "Price": 58,
+     "NumberOfPieces": 27,
+     "Current": false,
+     "Notes": "Notes 23",
+     "Image": "https://loremflickr.com/640/480",
+     "SetID": "23"
+    },
+    {
+     "SetName": "SetName 24",
+     "Category": "Category 24",
+     "Price": 94,
+     "NumberOfPieces": 99,
+     "Current": false,
+     "Notes": "Notes 24",
+     "Image": "https://loremflickr.com/640/480",
+     "SetID": "24"
+    },
+    {
+     "SetName": "SetName 25",
+     "Category": "Category 25",
+     "Price": 89,
+     "NumberOfPieces": 1,
+     "Current": false,
+     "Notes": "Notes 25",
+     "Image": "https://loremflickr.com/640/480",
+     "SetID": "25"
+    }
+   ]

@@ -1,0 +1,519 @@
+body{
+    width: 100vw;
+    background-color:rgb(193, 211, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbotron {
+    width: 100vw;
+    height: 220px;
+    /* background-color:rgb(171, 188, 228); */
+    background-color:rgb(134, 157, 212);
+    border-style:double;
+    border-width:8px;
+    border-radius:1rem;
+    border-color:rgb(80, 113, 232);
+    border-style:solid;
+    padding:30px 50px 50px 50px; 
+    /* margin-bottom: 40px; */
+    margin: 0px;
+    display: flex; 
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center; 
+}
+
+ #title {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+} 
+
+#form {
+    width: 80vw;
+    display: flex;
+}
+
+#create-category-button {
+    display: flex;
+    margin-bottom: 20px;
+    justify-items: center;
+    align-items: center;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+} 
+
+/* .col-3 {
+    background-color: lightsalmon;
+}
+.col-6 {
+    background-color: lightgreen;
+}
+
+.col-2 {
+    background-color: lightskyblue;
+} */
+
+
+/* ---------------------------Accordion----------------------- */
+
+#sample-accordion-1 {
+    border-color: rgb(16, 103, 41); 
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 1rem;   
+}
+
+#sample-accordion-2 {
+    border-color: rgb(224, 74, 14);
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 1rem;   
+}
+
+#sample-accordion-3 {
+    border-color: rgb(112, 9, 168);
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 1rem;   
+}
+
+#sample-accordion-4 {
+    border-color: rgb(196, 171, 7);
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 1rem;   
+}
+
+#sample-accordion-5 {
+    border-color: rgb(185, 19, 74);
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 1rem;   
+}
+
+/* ---------------For-Categories---------------*/
+
+
+#category-accordion-item-1 {
+    /* display: -webkit-flex;  */
+    display: flex;
+    height: 80px;
+    align-items: center;  
+    justify-items: center;
+    align-content: center;  
+    border-bottom-color: rgb(16, 103, 41) solid 4px;
+    background-color: rgb(130, 212, 130);
+}
+#category-accordion-item-2 {
+    /* display: -webkit-flex;  */
+    display: flex;
+    height: 80px;
+    align-items: center;  
+    justify-items: center;
+    align-content: center;  
+    border-bottom-color: rgb(224, 74, 14) solid 4px;
+    background-color: rgb(232, 131, 64);
+}
+#category-accordion-item-3 {
+    /* display: -webkit-flex;  */
+    display: flex;
+    height: 80px;
+    align-items: center;  
+    justify-items: center;
+    align-content: center;  
+    border-bottom-color: rgb(112, 9, 168) solid 4px;
+    background-color: rgb(164, 100, 216);
+}
+#category-accordion-item-4 {
+    /* display: -webkit-flex;  */
+    display: flex;
+    height: 80px;
+    align-items: center;  
+    justify-items: center;
+    align-content: center;  
+    border-bottom-color: rgb(196, 171, 7) solid 4px;
+    background-color: rgb(233, 217, 44);
+}
+#category-accordion-item-5{
+    /* display: -webkit-flex;  */
+    display: flex;
+    height: 80px;
+    align-items: center;  
+    justify-items: center;
+    align-content: center;  
+    border-bottom-color: rgb(185, 19, 74) solid 4px;
+    background-color: rgb(220, 97, 126);
+}
+
+
+#category-accordion-header-1 {
+    display: flex;
+    width: 100vw;
+    height: 80px;
+    background-color: rgb(130, 212, 130);
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;  
+    border-color:  rgb(16, 103, 41) solid 4px; 
+}
+#category-accordion-header-2 {
+    display: flex;
+    width: 100vw;
+    height: 80px;
+    background-color: rgb(232, 131, 64);
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;  
+    border-color: rgb(224, 74, 14) solid 4px;
+}
+#category-accordion-header-3 {
+    display: flex;
+    width: 100vw;
+    height: 80px;
+    background-color: rgb(164, 100, 216);
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;  
+    border-color:  rgb(112, 9, 168) solid 4px;
+}
+#category-accordion-header-4 {
+    display: flex;
+    width: 100vw;
+    height: 80px;
+    background-color: rgb(237, 224, 79);
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;  
+    border-color:  rgb(196, 171, 7) solid 4px;
+}
+#category-accordion-header-5 {
+    display: flex;
+    width: 100vw;
+    height: 80px;
+    background-color: rgb(224, 136, 156);
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;  
+    border-color:  rgb(185, 19, 74) solid 4px;
+}
+
+#category-name-1 {
+    display: flex;
+   padding: 10px;
+    margin: 10px;
+    height: 50%;
+}
+#category-name-2 {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    height: 50%;
+}
+#category-name-3 {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    height: 50%;
+}
+#category-name-4 {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    height: 50%;
+}
+#category-name-5 {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    height: 50%;
+}
+
+
+#add-ls-button-1 {
+    display: flex;
+    height: 50%;
+    justify-items: center;
+    align-items: center;
+    /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
+} 
+#add-ls-button-2 {
+    display: flex;
+    height: 50%;
+    justify-items: center;
+    align-items: center;
+    /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
+} 
+#add-ls-button-3 {
+        display: flex;
+        height: 50%;
+        justify-items: center;
+        align-items: center;
+        /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
+} 
+#add-ls-button-4 {
+    display: flex;
+    height: 50%;
+    justify-items: center;
+    align-items: center;
+    /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
+}  
+#add-ls-button-5 {
+    display: flex;
+    height: 50%;
+    justify-items: center;
+    align-items: center;
+    /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
+}
+
+
+.category-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.button-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+/* ---------------For-Lego-Sets---------------*/
+
+#ls-drop-section-1 {
+    background-color: rgb(181, 238, 156);
+}
+#ls-drop-section-2 {
+    background-color: rgb(247, 172, 131);
+}
+
+#ls-drop-section-3 {
+    background-color: rgb(220, 180, 232);
+}
+#ls-drop-section-4 {
+    background-color: rgb(240, 242, 144);
+}
+#ls-drop-section-5 {
+    background-color: rgb(250, 207, 231);
+}
+
+
+#ls-collapse-button-1 {  
+    height: 200px;
+    /* display: flex;
+    flex-direction: row; */
+    /* display: flex; */
+    border-color:  rgb(16, 103, 41) solid 4px; 
+    /* flex-direction: row; */
+    /* position: relative; */
+    background-color: rgb(181, 238, 156);
+}
+#ls-collapse-button-2 {
+    height: 200px;
+    /* display: flex;
+    flex-direction: row; */
+    /* display: flex; */
+    border-color:  rgb(224, 74, 14) solid 4px;
+    /* flex-direction: row; */
+    /* position: relative; */
+    background-color: rgb(247, 172, 131);
+}
+#ls-collapse-button-3 {
+    height: 200px;
+    /* display: flex;
+    flex-direction: row; */
+    /* display: flex; */
+    border-color:  rgb(16, 103, 41) solid 4px; 
+    /* flex-direction: row; */
+    /* position: relative; */
+    background-color: rgb(220, 180, 232);
+}
+#ls-collapse-button-4 {
+    height: 200px;
+    /* display: flex;
+    flex-direction: row; */
+    /* display: flex; */
+    border-color:  rgb(196, 171, 7) solid 4px; 
+    /* flex-direction: row; */
+    /* position: relative; */
+    background-color: rgb(240, 242, 144);
+}
+#ls-collapse-button-5 {
+    height: 200px;
+    /* display: flex;
+    flex-direction: row; */
+    /* display: flex; */
+    border-color:  rgb(185, 19, 74) solid 4px; 
+    /* flex-direction: row; */
+    /* position: relative; */
+    background-color: rgb(250, 207, 231);
+}
+
+
+
+
+/* #ls-accordion-button-show-1 {
+    display: flex;
+     */
+    /* border-color:  rgb(16, 103, 41) solid 4px;  */
+/* } */
+
+/* #ls-accordion-body {
+    display: block;
+    padding: 2rem;
+} */
+
+
+/* 
+#ls-accordion-button-show-2 {
+    display: flex;
+}
+#ls-accordion-button-show-3 {
+    display: flex;
+} */
+/*--------------Lego-Set-Design-Content------------*/
+
+.cover-image {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    position: absolute;
+    align-self: center;
+    /* margin-left: 5%; */
+    margin-left: 10%;
+    border-width: 2px;
+    /* border-color: black;  */
+    border-style: solid;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#cover-image-1 {
+    border-color: rgb(16, 103, 41); 
+}
+#cover-image-2 {
+    border-color: rgb(224, 74, 14); 
+}
+#cover-image-3 {
+    border-color: rgb(112, 9, 168);
+}
+#cover-image-4 {
+    border-color: rgb(196, 171, 7);
+}
+#cover-image-5 {
+    border-color: rgb(185, 19, 74);
+}
+
+#ls-name-1 {
+    display: flex;
+    /* flex-direction: column; */
+    margin-left: 50%;
+    margin-right: 15%;
+    padding-left: 20px;
+    align-self: center;
+    position: absolute;
+    font-size: x-large;
+    font-weight: 500;
+}
+#ls-name-2 {
+    display: flex;
+    /* flex-direction: column; */
+    margin-left: 50%;
+    margin-right: 15%;
+    padding-left: 20px;
+    align-self: center;
+    position: absolute;
+    font-size: x-large;
+    font-weight: 500;
+}
+#ls-name-3 {
+    display: flex;
+    /* flex-direction: column; */
+    margin-left: 50%;
+    margin-right: 15%;
+    padding-left: 20px;
+    align-self: center;
+    position: absolute;
+    font-size: x-large;
+    font-weight: 500;
+}
+#ls-name-4 {
+    display: flex;
+    /* flex-direction: column; */
+    margin-left: 50%;
+    margin-right: 15%;
+    padding-left: 20px;
+    align-self: center;
+    position: absolute;
+    font-size: x-large;
+    font-weight: 500;
+}
+#ls-name-5 {
+    display: flex;
+    /* flex-direction: column; */
+    margin-left: 50%;
+    margin-right: 15%;
+    padding-left: 20px;
+    align-self: center;
+    position: absolute;
+    font-size: x-large;
+    font-weight: 500;
+}
+
+
+#additional-images-row-1 {
+    display: flex;
+    flex-direction: row;
+    /* justify-items: space-between; */
+}
+#additional-images-row-2 {
+    display: flex;
+    flex-direction: row;
+    /* justify-items: space-between; */
+}
+#additional-images-row-3 {
+    display: flex;
+    flex-direction: row;
+    /* justify-items: space-between; */
+}
+#additional-images-row-4 {
+    display: flex;
+    flex-direction: row;
+    /* justify-items: space-between; */
+}
+#additional-images-row-5 {
+    display: flex;
+    flex-direction: row;
+    /* justify-items: space-between; */
+}
+
+
+
+
+.additional-image {
+    height: 150px;
+    width: 150px;
+    margin-left: 10%;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    display: flex;
+}
+
+

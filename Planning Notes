@@ -1,0 +1,33 @@
+
+1.  Change so that input fields only show up after clicking Add New Category button.
+
+2.  Change inputs to horizontal (but will stack on smaller screen).
+
+3.  Does category color need to go into category constructor?
+
+4.  Make delete category button really small - include pop ups for deleting "Are you sure you want to delete this Category/Lego Set?"
+
+5.  Problem: If "delete" button is on accordion toggle button, how do you exclude the space taken up by the smaller button so you aren't triggering two separate events?  
+<!-- Put add Lego Set button within accordian header.  Should be possible.  Could also maybe float it.  Psuedo classes? -->
+With the on click of buttons, you need to use $event.stopPropagation()
+https://stackoverflow.com/questions/69264456/how-to-add-buttons-on-the-header-of-bootstrap-accordian-in-such-a-way-that-click 
+public onButtonClick($event): void {
+    // Do something on click
+    $event.stopPropagation()
+}
+or button-wrapper class?
+
+Create in CSS class?  - but will need to be created when category created.
+
+6.  Add "secret hover spots" - I code so I can buy lego!
+    Accordions are simple... until you try and style them:)
+
+7.  Automate coloring so that the chosen category color automates to borders, collapse show button, text, etc. in different shades of the same color.  Slightly lighter or slightly darker.  Research this.  Also - will need to decide when to use white vs. black text.  Or maybe just simplify all of this instead.  
+
+8.  Why "static" key word?
+
+9.  What if I want to not have newest category/accordion on top, but display them in alphabetical order?  What would I use instead of prepend, or would I still use prepend and then have it re-render in alphabetical after.  
+
+10.  Make image bigger if you hover over.  
+
+11.  Make links at top of page that list the categories since the page is getting long.  
